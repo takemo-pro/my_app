@@ -1,0 +1,44 @@
+@import  "bootstrap" ;
+
+//application.html.erb
+
+body{
+    background-image: url(ask-2341784_1920.jpg);
+    background-size: cover;
+}
+
+header{
+    nav{
+        ul{
+            form{
+                margin-left:25px;
+            }
+        }
+    }
+}
+#logo{
+    font-size: 1.9em;
+    line-height: 1.9em;
+    color: white;
+    float: left;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+ul.navbar-nav{
+    margin-left:20px;
+    .nav-link{
+        font-size: 1.2em;
+    }
+    form{
+        
+    }
+    
+}
+
+footer{
+    .nav-link{
+        font-size: 0.5em;
+    }
+}

@@ -6,15 +6,9 @@ class HomePagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'title' , 'Home / Magic room'
   end
-  
-  test "should get home" do
-    get home_pages_home_url
-    assert_response :success
-    assert_select 'title' , 'Home / Magic room'
-  end
 
   test "should get help" do
-    get home_pages_help_url
+    get help_path
     assert_response :success
     assert_select 'title' , 'Help / Magic room'
   end
